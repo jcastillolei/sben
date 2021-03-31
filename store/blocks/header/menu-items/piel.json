@@ -1,0 +1,260 @@
+{
+    "menu-item#piel": {
+        "props": {
+          "id": "menu-item-custom-sale",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "PIEL",
+            "text": "PIEL"
+          }
+        },
+        "blocks": [
+          "vtex.menu@2.x:submenu#piel"
+        ]
+      },
+      "vtex.menu@2.x:submenu#piel": {
+        "props": {
+          "width": "100%"
+        },
+        "children": [
+          "flex-layout.row#menu-piel"
+        ]
+      },
+      "flex-layout.row#menu-piel": {
+        "children": [
+          "flex-layout.col#menu-piel-1",
+          "flex-layout.col#menu-piel-2",
+          "flex-layout.col#menu-piel-4"
+        ]
+      },
+      "flex-layout.col#menu-piel-1": {
+        "props": {
+          "blockClass": "menu-col-1"
+        },
+        "children": [
+          "vtex.menu@2.x:menu#piel"
+        ]
+      },
+      "flex-layout.col#menu-piel-2": {
+        "children": [
+          "vtex.menu@2.x:menu#piel2"
+        ]
+      },
+      "flex-layout.col#menu-piel-4": {
+        "children": [
+          "info-card#home"
+        ]
+      },
+      "vtex.menu@2.x:menu#piel": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#rostropiel",
+          "menu-item#ojospiel",
+          "menu-item#cuerposmanos",
+          "menu-item#depilacionpiel",
+          "menu-item#pies",
+          "menu-item#ver-todo-piel"
+        ]
+      },
+      "menu-item#rostropiel": {
+        "props": {
+          "id": "menu-item-rostropiel",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piel?map=category-1,category-2&query=/piel/rostro&searchState",
+            "noFollow": true,
+            "tagTitle": "ROSTRO",
+            "text": "ROSTRO"
+          }
+        }
+      },
+      "menu-item#ojospiel": {
+        "props": {
+          "id": "menu-item-ojospiel",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piel?map=category-1,category-2&query=/piel/ojos&searchState",
+            "noFollow": true,
+            "tagTitle": "OJOS",
+            "text": "OJOS"
+          }
+        }
+      },
+      "menu-item#cuerposmanos": {
+        "props": {
+          "id": "menu-item-cuerposmanos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piel?map=category-1,category-2&query=/piel/cuerpo-y-manos&searchState",
+            "noFollow": true,
+            "tagTitle": "CUERPO Y MANOS",
+            "text": "CUERPO Y MANOS"
+          }
+        }
+      },
+      "menu-item#depilacionpiel": {
+        "props": {
+          "id": "menu-item-depilacionpiel",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piel?map=category-1,category-2&query=/piel/depilacion&searchState",
+            "noFollow": true,
+            "tagTitle": "DEPILACIÓN",
+            "text": "DEPILACIÓN"
+          }
+        }
+      },
+      "menu-item#pies": {
+        "props": {
+          "id": "menu-item-pies",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piel?map=category-1,category-2&query=/piel/pies&searchState",
+            "noFollow": true,
+            "tagTitle": "PIES",
+            "text": "PIES"
+          }
+        }
+      },
+      "menu-item#ver-todo-piel": {
+        "props": {
+          "id": "menu-item-ver-todo-piel",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piel",
+            "noFollow": true,
+            "tagTitle": "VER TODO PIEL",
+            "text": "VER TODO PIEL"
+          }
+        }
+      },
+      "vtex.menu@2.x:menu#piel2": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#rostro2",
+          "menu-item#exfoliantes",
+          "menu-item#mascaras",
+          "menu-item#limpiadoresfaciales",
+          "menu-item#hidratantes",
+          "menu-item#tratamientos"
+        ]
+      },
+      "menu-item#rostro2": {
+        "props": {
+          "blockClass": "rostro",
+          "id": "menu-item-rostro2",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "ROSTRO",
+            "text": "ROSTRO"
+          }
+        }
+      },
+      "menu-item#exfoliantes": {
+        "props": {
+          "id": "menu-item-exfoliantes",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piel?map=category-1,category-2,category-3&query=/piel/rostro/exfoliantes&searchState",
+            "noFollow": true,
+            "tagTitle": "Exfoliantes",
+            "text": "Exfoliantes"
+          }
+        }
+      },
+      "menu-item#mascaras": {
+        "props": {
+          "id": "menu-item-mascaras",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piel?map=category-1,category-2,category-3&query=/piel/rostro/mascaras&searchState",
+            "noFollow": true,
+            "tagTitle": "Máscaras",
+            "text": "Máscaras"
+          }
+        }
+      },
+      "menu-item#limpiadoresfaciales": {
+        "props": {
+          "id": "menu-item-limpiadoresfaciales",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piel?map=category-1,category-2,category-3&query=/piel/rostro/limpiadores-faciales&searchState",
+            "noFollow": true,
+            "tagTitle": "Limpiadores Faciales",
+            "text": "Limpiadores Faciales"
+          }
+        }
+      },
+      "menu-item#hidratantes": {
+        "props": {
+          "id": "menu-item-hidratantes",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "Hidratantes",
+            "text": "Hidratantes"
+          }
+        }
+      },
+      "menu-item#tratamientos": {
+        "props": {
+          "id": "menu-item-tratamientos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/piel?map=category-1,category-2,category-3&query=/piel/rostro/tratamientos&searchState",
+            "noFollow": true,
+            "tagTitle": "Tratamientos",
+            "text": "Tratamientos"
+          }
+        }
+      }
+}

@@ -1,0 +1,54 @@
+{
+  "store.custom#about-us": {
+    "blocks": [
+      "flex-layout.row#about-us",
+      "flex-layout.row#deals"
+    ]
+  },
+
+  "flex-layout.row#about-us": {
+    "children": [
+      "flex-layout.col#text-about-us1",
+      "flex-layout.col#text-about-us"
+    ]
+  },
+  "flex-layout.col#text-about-us1": {
+    "children": [
+      "rich-text#title-about-us",
+      "rich-text#about-us-first-column"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#text-about-us": {
+    "children": [
+      "rich-text#about-us"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-about-us": {
+    "props": {
+      "text":
+      "Quiénes Somos",
+      "blockClass": "title-about-us"
+    }
+  },
+  "rich-text#about-us-first-column": {
+    "props": {
+      "text": "SALLY BEAUTY es la cadena de tiendas de belleza más grande del mundo, con más de 5.000 tiendas en 13 países y con presencia en Sudamérica, en los mercados de Chile y Perú.\n\nOfrecemos los mejores productos profesionales y asesoría experta, además de brindar los últimos secretos y tendencias para que nuestros clientes encuentren soluciones en cualquier área, desde el cuidado del cabello, la coloración y el peinado, hasta el maquillaje, la protección de la piel y la manicure, sin olvidar las más novedosas herramientas eléctricas, así como los accesorios de última moda.\n\nNos inspiramos en la belleza de las mujeres y trabajamos por ellas, respetando sus gustos individuales, su inteligencia y su conocimiento de sí mismas. Compartimos con ellas nuestros valores de marca y lo que somos:\n\nAutoridad en materia de cabello: buscamos darles lo último en tendencias y tecnologías capilares para sorprenderlas con soluciones profesionales e innovadoras para que logren su look ideal.\n\nUna experiencia inolvidable: las tiendas de Sally Beauty son mucho más que un lugar de compra, son espacios para probar, sentir y experimentar hasta encontrar el secreto de belleza que las hará sentir seguras, felices y hermosas.\n\nProveedores de consejos y soluciones: entendemos que cada mujer es única y cada día es diferente, por eso contamos con un equipo de asesores expertos para invitarlas a conocer el portafolio de belleza más amplio y seductor de todos, donde seguro estará la solución ideal para cada una de ellas.",
+      "blockClass": "about"
+    }
+  },
+  "rich-text#about-us": {
+    "props": {
+      "text": "Soluciones profesionales y los mejores precios: las mujeres merecen la mejor calidad siempre, por eso les brindamos únicamente los productos más innovadores elegidos por expertos de todo el mundo al precio perfecto.\n\nEn Chile, SALLY BEAUTY adquirió InterSalon, compañía que lleva más de 60 años en el negocio, haciendo así su entrada oficial al continente sudamericano en 2009, a través de un proceso progresivo de transformación que incluye una nueva identidad más vanguardista, enfocada a la experiencia de compra y con la incorporación de nuevos productos que enriquecen el portafolio ofrecido a su fiel clientela.\n\nEn SALLY BEAUTY pensamos que todas las mujeres son bellas y buscamos honrar su belleza real y diversa en todos sus estilos, formas y colores. No hay un solo prototipo de mujer, ni uno que sea mejor que otro, es por eso que llevamos 50 años trabajando para que las mujeres reales y diversas resalten su belleza. Ofrecemos el más amplio portafolio y los mejores secretos profesionales tanto para estilistas como para mujeres apasionadas por la belleza.\n\nNos sentimos orgullosos de tener entre nuestros clientes y amigos una red mundial de salones de belleza reconocidos, blogueros, estilistas profesionales y expertos en belleza que validan y conocen nuestro portafolio.\n\nGuiamos, conocemos y sorprendemos a nuestras clientas, por eso les brindamos soluciones de acuerdo a su estilo, necesidades y presupuesto. Sabemos lo que ellas prefieren, y siempre tenemos descubrimientos para compartirles lo último en belleza.",
+      "blockClass": "about"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "flex-layout.row#deals": {
+    "children": [
+      "flex-layout.col#deals1",
+      "flex-layout.col#deals2",
+      "flex-layout.col#deals3"
+    ],
+    "props": {
+      "blockClass": "fondo"
+    }
+  },
+
+  "flex-layout.col#deals1": {
+    "children": [
+      "image#deal1",
+      "rich-text#deal1"
+    ],
+    "props": {
+      "border": "all",
+      "borderColor": "silver"
+    }
+  },
+  "image#deal1": {
+    "props": {
+      "src": "https://sallybeautyb2b.vteximg.com.br/arquivos/art-and-design.png",
+      "maxHeight": "30px"
+    }
+  },
+  "rich-text#deal1": {
+    "props": {
+      "text": "MILES DE PRODUCTOS DE BELLEZA<br>PROFESIONAL",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals2": {
+    "children": [
+      "image#deal2",
+      "rich-text#deal2"
+    ],
+    "props": {
+      "border": "all",
+      "borderColor": "silver",
+      "width": "34%"
+    }
+  },
+  "image#deal2": {
+    "props": {
+      "src": "https://sallybeautyb2b.vteximg.com.br/arquivos/delivery-truck.png",
+      "maxHeight": "30px"
+    }
+  },
+  "rich-text#deal2": {
+    "props": {
+      "text": "DESPACHO A<br>DOMICILIO",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals3": {
+    "children": [
+      "image#deal3",
+      "rich-text#deal3"
+    ],
+    "props": {
+      "border": "all",
+      "borderColor": "silver"
+    }
+  },
+  "image#deal3": {
+    "props": {
+      "src": "https://sallybeautyb2b.vteximg.com.br/arquivos/credit-card.png",
+      "maxHeight": "30px"
+    }
+  },
+  "rich-text#deal3": {
+    "props": {
+      "text": "COMPRA SEGURA",
+      "blockClass": "deals"
+    }
+  }
+}

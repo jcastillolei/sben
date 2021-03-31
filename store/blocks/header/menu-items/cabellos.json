@@ -1,0 +1,472 @@
+{
+    "menu-item#cabellos": {
+        "props": {
+          "id": "menu-item-custom-sale",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "CABELLOS",
+            "text": "CABELLOS"
+          }
+        },
+        "blocks": [
+          "vtex.menu@2.x:submenu#cabellos"
+        ]
+      },
+      "vtex.menu@2.x:submenu#cabellos": {
+        "props": {
+          "width": "100%"
+        },
+        "children": [
+          "flex-layout.row#menu-cabellos"
+        ]
+      },
+      "flex-layout.row#menu-cabellos": {
+        "children": [
+          "flex-layout.col#menu-cabellos-1",
+          "flex-layout.col#menu-cabellos-2",
+          "flex-layout.col#menu-cabellos-3",
+          "flex-layout.col#menu-cabellos-4"
+        ]
+      },
+      "flex-layout.col#menu-cabellos-1": {
+        "props": {
+          "blockClass": "menu-col-1"
+        },
+        "children": [
+          "vtex.menu@2.x:menu#cabellos"
+        ]
+      },
+      "flex-layout.col#menu-cabellos-2": {
+        "children": [
+          "vtex.menu@2.x:menu#cabellos2"
+        ]
+      },
+      "flex-layout.col#menu-cabellos-3": {
+        "children": [
+          "vtex.menu@2.x:menu#cabellos3"
+        ]
+      },
+      "flex-layout.col#menu-cabellos-4": {
+        "children": [
+          "info-card#home"
+        ]
+      },
+      "vtex.menu@2.x:menu#cabellos": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#shampoocabellos",
+          "menu-item#tratamientoscabellos",
+          "menu-item#aceitescabellos",
+          "menu-item#accesorioscabellos",
+          "menu-item#packscabellos",
+          "menu-item#ver-todo-cabellos"
+        ]
+      },
+      "menu-item#shampoocabellos": {
+        "props": {
+          "id": "menu-item-shampoocabellos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/shampoo%20y%20acondicionadores?map=ft",
+            "noFollow": true,
+            "tagTitle": "SHAMPOO Y ACONDICIONADORES",
+            "text": "SHAMPOO Y ACONDICIONADORES"
+          }
+        }
+      },
+      "menu-item#tratamientoscabellos": {
+        "props": {
+          "id": "menu-item-tratamientoscabellos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tratamientos-y-mascaras/tratamientos%20y%20mascaras?map=category-2,ft",
+            "noFollow": true,
+            "tagTitle": "TRATAMIENTOS Y MÁSCARAS",
+            "text": "TRATAMIENTOS Y MÁSCARAS"
+          }
+        }
+      },
+      "menu-item#aceitescabellos": {
+        "props": {
+          "id": "menu-item-aceitescabellos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/aceites-y-serum/aceites%20y%20serum?map=category-2,ft",
+            "noFollow": true,
+            "tagTitle": "ACEITES Y SERUM",
+            "text": "ACEITES Y SERUM"
+          }
+        }
+      },
+      "menu-item#accesorioscabellos": {
+        "props": {
+          "id": "menu-item-accesorioscabellos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/accesorios%20cabello?_q=accesorios%20cabello&map=ft",
+            "noFollow": true,
+            "tagTitle": "ACCESORIOS",
+            "text": "ACCESORIOS"
+          }
+        }
+      },
+      "menu-item#packscabellos": {
+        "props": {
+          "id": "menu-item-packscabellos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/packs/pack%20cabellos?map=category-2,ft",
+            "noFollow": true,
+            "tagTitle": "PACKS",
+            "text": "PACKS"
+          }
+        }
+      },
+      "menu-item#ver-todo-cabellos": {
+        "props": {
+          "id": "menu-item-ver-todo-cabellos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cabello",
+            "noFollow": true,
+            "tagTitle": "VER TODO",
+            "text": "VER TODO"
+          }
+        }
+      },
+      "vtex.menu@2.x:menu#cabellos2": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#tipos",
+          "menu-item#seco",
+          "menu-item#danado",
+          "menu-item#tinturado",
+          "menu-item#liso",
+          "menu-item#rizo",
+          "menu-item#graso",
+          "menu-item#todotipo",
+          "menu-item#fino",
+          "menu-item#alisado",
+          "menu-item#rubio"
+        ]
+      },
+      "menu-item#tipos": {
+        "props": {
+          "blockClass": "tipos",
+          "id": "menu-item-tipos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us",
+            "noFollow": true,
+            "tagTitle": "TIPO DE CABELLO",
+            "text": "TIPO DE CABELLO"
+          }
+        }
+      },
+      "menu-item#seco": {
+        "props": {
+          "id": "menu-item-seco",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cabello?map=category-1,tipo-de-cabello&query=/cabello/seco&searchState",
+            "noFollow": true,
+            "tagTitle": "Seco",
+            "text": "Seco"
+          }
+        }
+      },
+      "menu-item#danado": {
+        "props": {
+          "id": "menu-item-danado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cabello?map=category-1,tipo-de-cabello&query=/cabello/danado&searchState",
+            "noFollow": true,
+            "tagTitle": "Danado",
+            "text": "Danado"
+          }
+        }
+      },
+      "menu-item#tinturado": {
+        "props": {
+          "id": "menu-item-tinturado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cabello?map=category-1,tipo-de-cabello&query=/cabello/tinturado&searchState",
+            "noFollow": true,
+            "tagTitle": "Tinturado",
+            "text": "Tinturado"
+          }
+        }
+      },
+      "menu-item#liso": {
+        "props": {
+          "id": "menu-item-liso",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cabello%20liso?_q=cabello%20liso&map=ft",
+            "noFollow": true,
+            "tagTitle": "Liso",
+            "text": "Liso"
+          }
+        }
+      },
+      "menu-item#rizo": {
+        "props": {
+          "id": "menu-item-rizo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cabello?map=category-1,tipo-de-cabello&query=/cabello/rizo&searchState",
+            "noFollow": true,
+            "tagTitle": "Rizo",
+            "text": "Rizo"
+          }
+        }
+      },
+      "menu-item#graso": {
+        "props": {
+          "id": "menu-item-graso",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cabello?map=category-1,tipo-de-cabello&query=/cabello/graso&searchState",
+            "noFollow": true,
+            "tagTitle": "Graso",
+            "text": "Graso"
+          }
+        }
+      },
+      "menu-item#todotipo": {
+        "props": {
+          "id": "menu-item-todotipo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cabello?map=category-1,tipo-de-cabello&query=/cabello/todo-tipo-de-cabello&searchState",
+            "noFollow": true,
+            "tagTitle": "Todo tipo de cabello",
+            "text": "Todo tipo de cabello"
+          }
+        }
+      },
+      "menu-item#fino": {
+        "props": {
+          "id": "menu-item-fino",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cabello%20fino?_q=cabello%20fino&map=ft",
+            "noFollow": true,
+            "tagTitle": "Fino",
+            "text": "Fino"
+          }
+        }
+      },
+      "menu-item#alisado": {
+        "props": {
+          "id": "menu-item-alisado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cabello%20alisado?_q=cabello%20alisado&map=ft",
+            "noFollow": true,
+            "tagTitle": "Alisado",
+            "text": "Alisado"
+          }
+        }
+      },
+      "menu-item#rubio": {
+        "props": {
+          "id": "menu-item-rubio",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cabello%20rubio?_q=cabello%20rubio&map=ft",
+            "noFollow": true,
+            "tagTitle": "Rubio/Canoso",
+            "text": "Rubio/Canoso"
+          }
+        }
+      },
+      "vtex.menu@2.x:menu#cabellos3": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#reparacion",
+          "menu-item#antifrizz",
+          "menu-item#volumen",
+          "menu-item#reparacionpuntas",
+          "menu-item#hidratacion",
+          "menu-item#brillo",
+          "menu-item#anticaida"
+        ]
+      },
+      "menu-item#reparacion": {
+        "props": {
+          "blockClass": "reparacion",
+          "id": "menu-item-tipos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cabello?map=category-1,solucion&query=/cabello/reparacion-puntas-partidas&searchState",
+            "noFollow": true,
+            "tagTitle": "SOLUCIÓN",
+            "text": "SOLUCIÓN"
+          }
+        }
+      },
+      "menu-item#antifrizz": {
+        "props": {
+          "id": "menu-item-seco",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cabello?map=category-1,solucion&query=/cabello/antifrizz&searchState",
+            "noFollow": true,
+            "tagTitle": "Antifrizz",
+            "text": "Antifrizz"
+          }
+        }
+      },
+      "menu-item#volumen": {
+        "props": {
+          "id": "menu-item-danado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cabello?map=category-1,solucion&query=/cabello/volumen&searchState",
+            "noFollow": true,
+            "tagTitle": "Volumen",
+            "text": "Volumen"
+          }
+        }
+      },
+      "menu-item#reparacionpuntas": {
+        "props": {
+          "id": "menu-item-tinturado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cabello?map=category-1,solucion&query=/cabello/reparacion-puntas-partidas&searchState",
+            "noFollow": true,
+            "tagTitle": "Reparación, puntas partidas",
+            "text": "Reparación, puntas partidas"
+          }
+        }
+      },
+      "menu-item#hidratacion": {
+        "props": {
+          "id": "menu-item-liso",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cabello?map=category-1,solucion&query=/cabello/hidratacion&searchState",
+            "noFollow": true,
+            "tagTitle": "Hidratación",
+            "text": "Hidratación"
+          }
+        }
+      },
+      "menu-item#brillo": {
+        "props": {
+          "id": "menu-item-rizo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cabello?map=category-1,solucion&query=/cabello/brillo&searchState",
+            "noFollow": true,
+            "tagTitle": "Brillo",
+            "text": "Brillo"
+          }
+        }
+      },
+      "menu-item#anticaida": {
+        "props": {
+          "id": "menu-item-graso",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cabello?map=category-1,solucion&query=/cabello/anticaida&searchState",
+            "noFollow": true,
+            "tagTitle": "Anticaída",
+            "text": "Anticaída"
+          }
+        }
+      },
+      "image#example": {
+        "props": {
+          "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+          "maxHeight": 24
+        }
+      }
+}

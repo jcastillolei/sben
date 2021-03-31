@@ -1,0 +1,103 @@
+{
+  "vtex.menu@2.x:menu#websites": {
+    "children": [
+      "menu-item#mi-cuenta",
+      "menu-item#mis-pedidos",
+      "menu-item#mis-cotizaciones",
+      "menu-item#mi-credito",
+      "menu-item#marcas",
+      "menu-item#ayuda"
+      
+    ]
+  },
+  "menu-item#mi-cuenta": {
+    "props": {
+      "id": "menu-item-cuenta-head",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": false,
+        "tagTitle": "MI CUENTA",
+        "text": "MI CUENTA"
+      }
+    }
+  },
+  "menu-item#mis-pedidos": {
+    "props": {
+      "id": "menu-item-pedidos-head",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": false,
+        "tagTitle": "MIS PEDIDOS",
+        "text": "MIS PEDIDOS"
+      }
+    }
+  },
+  "menu-item#mis-cotizaciones": {
+    "props": {
+      "id": "menu-item-cotizaciones-head",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": false,
+        "tagTitle": "MIS COTIZACIONES",
+        "text": "MIS COTIZACIONES"
+      }
+    }
+  },
+  "menu-item#mi-credito": {
+    "props": {
+      "id": "menu-item-credito-head",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": false,
+        "tagTitle": "MI CREDITO",
+        "text": "MI CREDITO"
+      }
+    }
+  },
+  "menu-item#marcas": {
+    "props": {
+      "id": "menu-item-marcas-head",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": false,
+        "tagTitle": "MARCAS",
+        "text": "MARCAS"
+      }
+    }
+  },
+  "menu-item#ayuda": {
+    "props": {
+      "id": "menu-item-ayuda",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": false,
+        "tagTitle": "AYUDA",
+        "text": "AYUDA"
+      }
+    }
+  }
+}

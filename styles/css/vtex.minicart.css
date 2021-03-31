@@ -1,0 +1,11 @@
+.minicartQuantityBadge{
+    background: none;
+    border: 1px solid #F75454;
+    color: #F75454;
+    top: 0rem;
+    right: -1.2rem;
+    width: 10px;
+    height: 10px;
+    font-size: 10px;
+    font-family: 'PT Sans', sans-serif;
+}

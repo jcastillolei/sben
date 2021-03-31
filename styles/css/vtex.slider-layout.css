@@ -1,0 +1,85 @@
+.sliderLayoutContainer {
+  justify-content: center;
+}
+.sliderLayoutContainer--carousel {
+  background-color: #ffffff;
+}
+
+.sliderTrackContainer {
+  max-width: 1920px;
+}
+
+.paginationDotsContainer {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.paginationDotsContainer--shelf{
+  display:none;
+}
+
+.layoutContainer--shelf {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 96rem;
+}
+
+.slide--shelf {
+  margin-bottom: 25px;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+.sliderLayoutContainer--carousel-marcas {
+  background-color: #ffffff;
+  margin-bottom: 25px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.sliderLayoutContainer--carousel-marcas .slide--carousel-marcas--visible{
+  border: 1px solid #E6E6E6;
+  padding: 0px 10px;
+}
+
+.imageElement
+.imageElement--carousel-marcas{
+  border-color: black;
+  border: 1px;
+}
+
+.sliderLayoutContainer--carousel-banners {
+  background-color: #ffffff;
+  margin-bottom: 25px;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.slideChildrenContainer--carousel-banners{
+  padding-left: .75rem;
+  padding-right: .75rem;
+}
+
+.imageElement
+.imageElement--carousel-banners {
+  border-color: black;
+}
+
+.slide--shelf--visible{
+  border: 1px solid #E6E6E6;
+}
+
+@media screen and (min-width: 640px){
+  /* fechas del carrúsel */
+  .sliderArrows--carousel{
+    background: rgba(0, 0, 0, 0.4) !important;
+    padding: 15px 0;
+    margin: 4px 0;
+  }
+  .sliderArrows--carousel:hover{
+    background: rgba(0, 0, 0, 0.2) !important;
+  }
+  .sliderArrows--carousel .caretIcon--carousel{
+    color: white;
+  }
+}

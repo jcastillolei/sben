@@ -1,0 +1,34 @@
+{
+  "store.custom#profesionalesform": {
+    "blocks": [
+      "rich-text#titulo-cotizacion-prof",
+      "flex-layout.row#formProfesionales",
+      "newsletter",
+      "flex-layout.row#deals"
+    ]
+  },
+
+  "flex-layout.row#formProfesionales": {
+    "children": [
+      "flex-layout.col#formProf"
+    ]
+  },
+  "flex-layout.col#formProf": {
+    "children": [
+      "form#prof"
+    ]
+  },
+  "form#prof": {
+    "props": {
+      "entity": "Profesionales",
+      "schema": "Profesionales"
+    }
+  },
+
+  "rich-text#titulo-cotizacion-prof": {
+    "props": {
+      "text": "FORMULARIO PROFESIONALES",
+      "blockClass": "shelfTitle"
+    }
+  }
+}

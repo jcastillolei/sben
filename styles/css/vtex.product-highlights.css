@@ -1,0 +1,13 @@
+.productHighlightWrapper--collection {
+  position: absolute;
+  width: 200px;
+}
+
+.productHighlightText {
+  background: #F75454;
+  padding: 5px 8px;
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+}

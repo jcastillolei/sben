@@ -1,0 +1,260 @@
+{
+    "menu-item#unas": {
+        "props": {
+          "id": "menu-item-custom-sale",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "UÑAS",
+            "text": "UÑAS"
+          }
+        },
+        "blocks": [
+          "vtex.menu@2.x:submenu#unas"
+        ]
+      },
+      "vtex.menu@2.x:submenu#unas": {
+        "props": {
+          "width": "100%"
+        },
+        "children": [
+          "flex-layout.row#menu-unas"
+        ]
+      },
+      "flex-layout.row#menu-unas": {
+        "children": [
+          "flex-layout.col#menu-unas-1",
+          "flex-layout.col#menu-unas-2",
+          "flex-layout.col#menu-unas-4"
+        ]
+      },
+      "flex-layout.col#menu-unas-1": {
+        "props": {
+          "blockClass": "menu-col-1"
+        },
+        "children": [
+          "vtex.menu@2.x:menu#unas"
+        ]
+      },
+      "flex-layout.col#menu-unas-2": {
+        "children": [
+          "vtex.menu@2.x:menu#unas2"
+        ]
+      },
+      "flex-layout.col#menu-unas-4": {
+        "children": [
+          "info-card#home"
+        ]
+      },
+      "vtex.menu@2.x:menu#unas": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#esmaltesunas",
+          "menu-item#baseytopunas",
+          "menu-item#tratamientosunas",
+          "menu-item#quitaesmaltesunas",
+          "menu-item#accesoriosunas",
+          "menu-item#lamparasesmalteunas",
+          "menu-item#packsunas",
+          "menu-item#ver-todo-unas"
+        ]
+      },
+      "menu-item#esmaltesunas": {
+        "props": {
+          "id": "menu-item-esmalteunas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/uñas?map=category-1,category-2&query=/unas/esmaltes&searchState",
+            "noFollow": true,
+            "tagTitle": "ESMALTES",
+            "text": "ESMALTES"
+          }
+        }
+      },
+      "menu-item#baseytopunas": {
+        "props": {
+          "id": "menu-item-baseytopunas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/uñas?map=category-1,category-2&query=/unas/base-y-top-coat&searchState",
+            "noFollow": true,
+            "tagTitle": "BASE Y TOP COAT",
+            "text": "BASE Y TOP COAT"
+          }
+        }
+      },
+      "menu-item#tratamientosunas": {
+        "props": {
+          "id": "menu-item-tratamientosunas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/uñas?map=category-1,category-2&query=/unas/tratamientos&searchState",
+            "noFollow": true,
+            "tagTitle": "TRATAMIENTOS",
+            "text": "TRATAMIENTOS"
+          }
+        }
+      },
+      "menu-item#quitaesmaltesunas": {
+        "props": {
+          "id": "menu-item-quitaesmaltesunas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/uñas?map=category-1,category-2&query=/unas/quita-esmaltes&searchState",
+            "noFollow": true,
+            "tagTitle": "QUITA ESMALTES",
+            "text": "QUITA ESMALTES"
+          }
+        }
+      },
+      "menu-item#accesoriosunas": {
+        "props": {
+          "id": "menu-item-accesoriosunas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/uñas?map=category-1,category-2&query=/unas/accesorios&searchState",
+            "noFollow": true,
+            "tagTitle": "ACCESORIOS",
+            "text": "ACCESORIOS"
+          }
+        }
+      },
+      "menu-item#lamparasesmalteunas": {
+        "props": {
+          "id": "menu-item-lamparasesmalteunas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/uñas?map=category-1,category-2&query=/unas/lamparas-esmaltado-permanente&searchState",
+            "noFollow": true,
+            "tagTitle": "LÁMPARAS ESMALTADO PERMANENTE",
+            "text": "LÁMPARAS ESMALTADO PERMANENTE"
+          }
+        }
+      },
+      "menu-item#packsunas": {
+        "props": {
+          "id": "menu-item-packsunas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "PACKS",
+            "text": "PACKS"
+          }
+        }
+      },
+      "menu-item#ver-todo-unas": {
+        "props": {
+          "id": "menu-item-ver-todo-unas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/uñas",
+            "noFollow": true,
+            "tagTitle": "VER TODO UÑAS",
+            "text": "VER TODO UÑAS"
+          }
+        }
+      },
+      "vtex.menu@2.x:menu#unas2": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#esmaltesun",
+          "menu-item#tradicional",
+          "menu-item#permanente",
+          "menu-item#semipermanente"
+        ]
+      },
+      "menu-item#esmaltesun": {
+        "props": {
+          "blockClass": "esmaltesun",
+          "id": "menu-item-esmaltesun",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "ESMALTES",
+            "text": "ESMALTES"
+          }
+        }
+      },
+      "menu-item#tradicional": {
+        "props": {
+          "id": "menu-item-tradicional",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/uñas?map=category-1,category-2,category-3&query=/unas/esmaltes/tradicional&searchState",
+            "noFollow": true,
+            "tagTitle": "Tradicional",
+            "text": "Tradicional"
+          }
+        }
+      },
+      "menu-item#permanente": {
+        "props": {
+          "id": "menu-item-permanente",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/uñas?map=category-1,category-2,category-3&query=/unas/esmaltes/permanente&searchState",
+            "noFollow": true,
+            "tagTitle": "Permanente",
+            "text": "Permanente"
+          }
+        }
+      },
+      "menu-item#semipermanente": {
+        "props": {
+          "id": "menu-item-semipermanente",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/uñas?map=category-1,category-2,category-3&query=/unas/esmaltes/semi-permanente&searchState",
+            "noFollow": true,
+            "tagTitle": "Semi-Permanente",
+            "text": "Semi-Permanente"
+          }
+        }
+      }
+}
