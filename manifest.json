@@ -1,7 +1,7 @@
 {
   "vendor": "sallybeautyb2b",
   "name": "store-theme",
-  "version": "11.1.0",
+  "version": "12.0.0",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
