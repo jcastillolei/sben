@@ -1,0 +1,196 @@
+{
+    "menu-item#coloracion": {
+        "props": {
+          "id": "menu-item-coloracion",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "COLORACION",
+            "text": "COLORACION"
+          }
+        },
+        "blocks": [
+          "vtex.menu@2.x:submenu#coloracion"
+        ]
+      },
+      "vtex.menu@2.x:submenu#coloracion": {
+        "props": {
+          "width": "100%"
+        },
+        "children": [
+          "flex-layout.row#menu-coloracion"
+        ]
+      },
+      "flex-layout.row#menu-coloracion": {
+        "children": [
+          "flex-layout.col#menu-coloracion-1",
+          "flex-layout.col#menu-coloracion-2",
+          "flex-layout.col#menu-coloracion-3"
+        ]
+      },
+      "flex-layout.col#menu-coloracion-1": {
+        "props": {
+          "blockClass": "menu-col-1"
+        },
+        "children": [
+          "vtex.menu@2.x:menu#coloracion"
+        ]
+      },
+      "flex-layout.col#menu-coloracion-2": {
+        "children": [
+          "vtex.menu@2.x:menu#coloracion2"
+        ]
+      },
+      "flex-layout.col#menu-coloracion-3": {
+        "children": [
+          "info-card#home"
+        ]
+      },
+      "vtex.menu@2.x:menu#coloracion": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#tintescolora",
+          "menu-item#oxidantescolora",
+          "menu-item#accesorioscolora",
+          "menu-item#ver-todo-colora"
+        ]
+      },
+      "menu-item#tintescolora": {
+        "props": {
+          "id": "menu-item-tintescolora",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/coloracion?map=category-1,category-2&query=/coloracion/tintes&searchState",
+            "noFollow": true,
+            "tagTitle": "TINTES",
+            "text": "TINTES"
+          }
+        }
+      },
+      "menu-item#oxidantescolora": {
+        "props": {
+          "id": "menu-item-oxidantescolora",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/coloracion?map=category-1,category-2&query=/coloracion/oxidantes-y-decolorantes&searchState",
+            "noFollow": true,
+            "tagTitle": "OXIDANTES Y DECOLORANTES",
+            "text": "OXIDANTES Y DECOLORANTES"
+          }
+        }
+      },
+      "menu-item#accesorioscolora": {
+        "props": {
+          "id": "menu-item-accesorioscolora",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/coloracion?map=category-1,category-2&query=/coloracion/accesorios&searchState",
+            "noFollow": true,
+            "tagTitle": "ACCESORIOS",
+            "text": "ACCESORIOS"
+          }
+        }
+      },
+      "menu-item#ver-todo-colora": {
+        "props": {
+          "id": "menu-item-ver-todocolora",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/coloracion",
+            "noFollow": true,
+            "tagTitle": "VER TODO COLORACIÓN",
+            "text": "VER TODO COLORACIÓN"
+          }
+        }
+      },
+      "vtex.menu@2.x:menu#coloracion2": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#tintescolo",
+          "menu-item#permanentes",
+          "menu-item#temporales",
+          "menu-item#cubreraiz"
+        ]
+      },
+      "menu-item#tintescolo": {
+        "props": {
+          "blockClass": "tintescolo",
+          "id": "menu-item-tintescolo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/coloracion?map=category-2&query=/tintes&searchState",
+            "noFollow": true,
+            "tagTitle": "TINTES",
+            "text": "TINTES"
+          }
+        }
+      },
+      "menu-item#permanentes": {
+        "props": {
+          "id": "menu-item-permanentes",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/coloracion?map=category-2,category-2,category-3&query=/accesorios/tintes/permanentes&searchState",
+            "noFollow": true,
+            "tagTitle": "Permanentes",
+            "text": "Permanentes"
+          }
+        }
+      },
+      "menu-item#temporales": {
+        "props": {
+          "id": "menu-item-temporales",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/coloracion?map=category-2,category-3&query=/tintes/temporales-y-fantasias&searchState",
+            "noFollow": true,
+            "tagTitle": "Temporales y Fantasía",
+            "text": "Temporales y Fantasía"
+          }
+        }
+      },
+      "menu-item#cubreraiz": {
+        "props": {
+          "id": "menu-item-cubreraiz",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/coloracion?map=category-2,category-3&query=/tintes/cubre-raiz&searchState",
+            "noFollow": true,
+            "tagTitle": "Cubre Raíz",
+            "text": "Cubre Raíz"
+          }
+        }
+      }
+}

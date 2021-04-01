@@ -1,0 +1,155 @@
+{
+    "store.custom#loginsb2b": {
+      "parent": {
+        "header": "header#empty",
+        "footer": "footer#empty"
+      },
+      "blocks": [
+        "flex-layout.col#spacer",
+        "flex-layout.row#contenido-login"
+      ]
+    },
+
+    "flex-layout.row#contenido-login": {
+        "children": [
+          "flex-layout.col#left-login",
+          "flex-layout.col#right-login"
+        ],
+        "props": {
+            "colGap": 7,
+            "rowGap": 7,
+            "marginTop": 0,
+            "marginBottom": 7,
+            "paddingTop": 6,
+            "paddingBottom": 7,
+            "blockClass": "login-form"
+        }
+        
+    },
+
+    "flex-layout.col#left-login": {
+        "children": [
+            "flex-layout.row#texto-login"
+        ],
+        "props": {
+            "width": "50%",
+            "marginLeft": 40,
+            "blockClass": "login-form-left"
+        }
+    },
+
+    "flex-layout.col#right-login": {
+        "children": [
+            "login-content"
+        ],
+        "props": {
+            "width": "50%",
+            "blockClass": "login-form-right"
+        }
+    },
+
+    "header#empty": {
+        "blocks": [
+            "header-layout.desktop#empty",
+            "header-layout.mobile#empty"
+        ]
+    },
+    "header-layout.desktop#empty": {
+        "children": ["flex-layout.row#2-desktop","flex-layout.row#login-head-desktop"]
+    },
+    "header-layout.mobile#empty": {
+        "children": ["flex-layout.row#login-head-desktop"]
+    },
+
+    "flex-layout.row#login-logo-desktop": {
+        "props": {
+            "blockClass": "head-logo-login",
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.col#logo-desktop"
+        ]
+    },
+    
+    "flex-layout.row#login-head-desktop": {
+        "props": {
+            "blockClass": "menu-link",
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        },
+        "children": [
+            "vtex.menu@2.x:menu#websites",
+            "flex-layout.col#spacer"
+        ]
+    },
+
+    "footer#empty": {
+        "blocks": [
+            "footer-layout.desktop#empty",
+            "footer-layout.mobile#empty"
+        ]
+    },
+    "footer-layout.desktop#empty": {
+        "children": ["flex-layout.row#login-logo-desktop","flex-layout.row#footer-1-desktop"]
+    },
+    "footer-layout.mobile#empty": {
+        "children": []
+    },
+
+
+    "list-context.image-list#imagen-login": {
+        "children": ["slider-layout#imagen-logo-images"],
+        "props": {
+          "height": 650,
+          "images": [
+            {
+              "image": "https://sallybeauty.vteximg.com.br/arquivos/sally-profesionales-bg.jpg",
+              "description": "something something"
+            }
+          ]
+        }
+      },
+    
+    "slider-layout#imagen-logo-images": {
+        "props": {
+            "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+            },
+            "infinite": true
+        }
+    },
+    "flex-layout.row#texto-login": {
+        "children": [
+          "flex-layout.col#text-login-left"
+        ]
+      },
+      "flex-layout.col#text-login-left": {
+        "children": [
+          "rich-text#title-login",
+          "rich-text#content-login"
+        ],
+        "props": {
+          "preventVerticalStretch": true
+        }
+      },
+      "rich-text#title-login": {
+        "props":{
+          "text": "Bienvenido a SallyBeautyB2B",
+          "font": "t-heading-1",
+          "blockClass": "title-text-login"
+        }
+      }, 
+      "rich-text#content-login": {
+        "props": {
+          "text": "Únete a SALLY BEAUTY PROFESIONAL y disfruta de todos los beneficios que tenemos para ti.\nEl mayor surtido de productos profesionales de las mejores marcas.\nENVÍOS A TODO CHILE\nDespachamos a todo el país, Región Metropolitana en 48hs.\nBENEFICIOS EXCLUSIVOS\nSiendo parte de SALLY BEAUTY PROFESIONAL recibirás las mejores ofertas, descuentos, capacitaciones y otros beneficios exclusivos.",
+          "blockClass": "content-login-left"
+        }
+      }
+}

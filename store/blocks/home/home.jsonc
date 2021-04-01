@@ -1,0 +1,391 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#demo",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "__fold__.experimentalLazyAssets",
+      "rich-text#marcas-title",
+      "list-context.image-list#marcas",
+      "list-context.image-list#banners",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      "rich-text#shelf-title2",
+      "flex-layout.row#shelf",
+      "newsletter",
+      "flex-layout.row#deals"
+    ],
+    "parent": {
+      "challenge": "challenge.trade-policy-condition"
+    }
+  },
+  "challenge.trade-policy-condition": {
+    "props": {
+      "redirectPath": "/loginsb2b",
+      "defaultContentVisibility": "hidden"
+    }
+  },
+  "flex-layout.row#form": {
+    "children": [
+      "flex-layout.col#form"
+    ]
+  },
+  "flex-layout.col#form": {
+    "children": [
+      "form"
+    ]
+  },
+  "form": {
+    "props": {
+      "entity": "Cotizacion",
+      "schema": "Cotizacion"
+    }
+  },
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/B-HWS-Profesional-B2b.png",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/B-HMS-Profesional-B2b.png"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/B-HWS-Compra-Por-volumen.png",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/B-HMS-Compra-Por-volumen.png"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/B-HWS-Olaplex-Profesional.png",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/B-HMS-Olaplex-Profesional.png"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/B-HWS-Barber.png",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/B-HMS-Barber.png"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/banner3.gif",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/banner3.gif"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/B-HWS-Lanzamiento-Teknia.png",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/B-HMS-Lanzamiento-Teknia.png"
+        }  
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+  "rich-text#marcas-title": {
+    "props": {
+      "text": "MARCAS",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "list-context.image-list#marcas": {
+    "children": ["slider-layout#marcas-images"],
+    "props": {
+      "height": 100,
+      "fullWidth": false,
+      "images": [
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/A_Classics-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/A_Classics-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/AG-Hair-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/AG-Hair-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/AG-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/AG-Logo.jpg"
+        }
+        ,
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/Babyliss-Pro-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/Babyliss-Pro-Logo.jpg"
+        }
+        ,
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/Barburys-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/Barburys-Logo.jpg"
+        }
+        ,
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/Batiste-Logo.png",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/Batiste-Logo.png"
+        }
+        ,
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/Beauty-Secrets-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/Beauty-Secrets-Logo.jpg"
+        }
+        ,
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/Biotera-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/Biotera-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/Bitzy-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/Bitzy-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/Bodyography-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/Bodyography-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/BTZ-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/BTZ-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/Beyond-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/Beyond-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/Beyond-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/Beyond-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/California-Mango-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/California-Mango-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/ColorClub-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/ColorClub-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/Dermactin-TS-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/Dermactin-TS-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/Difeel-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/Difeel-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/Exel-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/Exel-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/Face-Secrets-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/Face-Secrets-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/FingerPaints-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/FingerPaints-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/Foreo-Logo.png",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/Foreo-Logo.png"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/Gelish-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/Gelish-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/Gibs-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/Gibs-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/Hair-Chemist-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/Hair-Chemist-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/Hask-Logo.png",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/Hask-Logo.png"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/ION-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/ION-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/Joico-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/Joico-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/Lakme-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/Lakme-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/Loreal-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/Loreal-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/Mini-Mani-Moo-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/Mini-Mani-Moo-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/Morgan-Taylor-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/Morgan-Taylor-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/Mystic-Divine-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/Mystic-Divine-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/Nina-Ultra-Pro-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/Nina-Ultra-Pro-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/Palladio-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/Palladio-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/Paul-Mitchell-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/Paul-Mitchell-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/Proclaim-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/Proclaim-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/Real-Colors-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/Real-Colors-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/Revlon-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/Revlon-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/Rocco-Donna-Logo.png",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/Rocco-Donna-Logo.png"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/Sally-Girl-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/Sally-Girl-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/Schwarzkopf-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/Schwarzkopf-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/The-Balm-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/The-Balm-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/Tigi-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/Tigi-Logo.jpg"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/XP200-Logo.jpg",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/XP200-Logo.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#marcas-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 8,
+        "tablet": 6,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "autoplay": {
+        "timeout": 7000,
+        "stopOnHover": false
+      },
+      "blockClass": "carousel-marcas"
+    }
+  },
+  "list-context.image-list#banners": {
+    "children": ["slider-layout#banners-images"],
+    "props": {
+      "height": 650,
+      "images": [
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/banner-cuadrado-Dabalash-Generico-Desktop.png",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/banner-cuadrado-Dabalash-Generico-Movil.png",
+          "description": "dabalash"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/banner-cuadrado-Bodyography-Desktop.png",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/banner-cuadrado-Bodyography-Movil.png",
+          "description": "make up professional bodyography"
+        },
+        {
+          "image": "https://sallybeautyb2b.vteximg.com.br/arquivos/banner-cuadrado-Gelish-Desktop.png",
+          "mobileImage": "https://sallybeautyb2b.vteximg.com.br/arquivos/banner-cuadrado-Gelish-Movil.png",
+          "description": "gelish"
+        }
+      ]
+    }
+  },
+
+  "slider-layout#banners-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "carousel-banners"
+    }
+  },
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "PRECIO POR VOLUMEN",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "rich-text#shelf-title2": {
+    "props": {
+      "text": "FAVORITOS",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+  "rich-text#question": {
+    "props": {
+      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+      "blockClass": "question"
+    }
+  },
+  "rich-text#link": {
+    "props": {
+      "text": "\n**Reach us at**\nwww.vtex.com.br",
+      "blockClass": "link"
+    }
+  }
+}

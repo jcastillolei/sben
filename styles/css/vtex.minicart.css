@@ -1,0 +1,57 @@
+.minicartQuantityBadge{
+    background: none;
+    border: 1px solid #F75454;
+    color: #F75454;
+    top: 0rem;
+    right: -1.2rem;
+    width: 10px;
+    height: 10px;
+    font-size: 10px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.opened .minicartTitle{
+    font-family: 'PT Sans', sans-serif; 
+}
+.opened :global(.vtex-flex-layout-0-x-flexRowContent){
+    margin: 0;
+}
+.opened :global(.vtex-product-list-0-x-quantitySelector),
+.opened :global(.vtex-product-list-0-x-productBrandName){
+    display: none;
+}
+
+.opened :global(.vtex-product-list-0-x-price){
+    font-family: 'PT Sans', sans-serif;
+}
+.opened :global(.vtex-product-list-0-x-productName){
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    color: #333;
+    font-weight: 500;
+}
+
+@media(max-width:990px){
+    .opened
+    :global(.vtex-product-list-0-x-productName){
+        height: 40px;
+        overflow: hidden;
+        line-height: 20px;
+    }
+}
+
+.opened
+:global(.vtex-checkout-summary-0-x-summaryItemContainer){
+    font-family: 'PT Sans', sans-serif;
+}
+
+.opened
+.minicartCheckoutButton
+:global(.vtex-button){
+  background: #F75454;
+  border-radius: 0px;
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+  border: none;
+  font-weight: bold;
+}

@@ -1,0 +1,292 @@
+{
+    "menu-item#electricos": {
+        "props": {
+          "id": "menu-item-custom-sale",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "ELECTRICOS",
+            "text": "ELECTRICOS"
+          }
+        },
+        "blocks": [
+          "vtex.menu@2.x:submenu#electricos"
+        ]
+      },
+      "vtex.menu@2.x:submenu#electricos": {
+        "props": {
+          "width": "100%"
+        },
+        "children": [
+          "flex-layout.row#menu-electricos"
+        ]
+      },
+      "flex-layout.row#menu-electricos": {
+        "children": [
+          "flex-layout.col#menu-electricos-1",
+          "flex-layout.col#menu-electricos-2",
+          "flex-layout.col#menu-electricos-4"
+        ]
+      },
+      "flex-layout.col#menu-electricos-1": {
+        "props": {
+          "blockClass": "menu-col-1"
+        },
+        "children": [
+          "vtex.menu@2.x:menu#electricos"
+        ]
+      },
+      "flex-layout.col#menu-electricos-2": {
+        "children": [
+          "vtex.menu@2.x:menu#electricos2"
+        ]
+      },
+      "flex-layout.col#menu-electricos-4": {
+        "children": [
+          "info-card#home"
+        ]
+      },
+      "vtex.menu@2.x:menu#electricos": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#secadoreselec",
+          "menu-item#planchaselec",
+          "menu-item#cryocareelec",
+          "menu-item#cepilloselectricoselec",
+          "menu-item#onduladoreselec",
+          "menu-item#cortadorasdepeloelec",
+          "menu-item#desvelladoraselec",
+          "menu-item#lamparaselec",
+          "menu-item#accesorioselec",
+          "menu-item#ver-todo-electricoselec"
+        ]
+      },
+      "menu-item#secadoreselec": {
+        "props": {
+          "id": "menu-item-secadoreselec",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/electricos?map=category-1,category-2&query=/electricos/secadores&searchState",
+            "noFollow": true,
+            "tagTitle": "SECADORAS",
+            "text": "SECADORAS"
+          }
+        }
+      },
+      "menu-item#planchaselec": {
+        "props": {
+          "id": "menu-item-planchaselec",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/electricos?map=category-1,category-2&query=/electricos/planchas-alisadores&searchState",
+            "noFollow": true,
+            "tagTitle": "PLANCHAS/ALISADORES",
+            "text": "PLANCHAS/ALISADORES"
+          }
+        }
+      },
+      "menu-item#cryocareelec": {
+        "props": {
+          "id": "menu-item-cryocareelec",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/electricos?map=category-1,category-2&query=/electricos/cryocare&searchState",
+            "noFollow": true,
+            "tagTitle": "CRYOCARE",
+            "text": "CRYOCARE"
+          }
+        }
+      },
+      "menu-item#cepilloselectricoselec": {
+        "props": {
+          "id": "menu-item-cepilloselectricoselec",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/electricos?map=category-1,category-2&query=/electricos/cepillos-electricos&searchState",
+            "noFollow": true,
+            "tagTitle": "CEPILLOS ELÉCTRICOS",
+            "text": "CEPILLOS ELÉCTRICOS"
+          }
+        }
+      },
+      "menu-item#onduladoreselec": {
+        "props": {
+          "id": "menu-item-onduladoreselec",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/electricos?map=category-1,category-2&query=/electricos/onduladores-rizadores&searchState",
+            "noFollow": true,
+            "tagTitle": "ONDULADORES/RIZADORES",
+            "text": "ONDULADORES/RIZADORES"
+          }
+        }
+      },
+      "menu-item#cortadorasdepeloelec": {
+        "props": {
+          "id": "menu-item-cortadorasdepeloelec",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/electricos?map=category-1,category-2&query=/electricos/cortadoras-de-pelo-barba&searchState",
+            "noFollow": true,
+            "tagTitle": "CORTADORAS DE PELO/BARBA (CLIPPER)",
+            "text": "CORTADORAS DE PELO/BARBA (CLIPPER)"
+          }
+        }
+      },
+      "menu-item#desvelladoraselec": {
+        "props": {
+          "id": "menu-item-desvelladoraselec",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/electricos?map=category-1,category-2&query=/electricos/desvelladoras&searchState",
+            "noFollow": true,
+            "tagTitle": "DESVELLADORAS (TRIMMER)",
+            "text": "DESVELLADORAS (TRIMMER)"
+          }
+        }
+      },
+      "menu-item#lamparaselec": {
+        "props": {
+          "id": "menu-item-lamparaselec",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/lamparas%20esmaltado?_q=lamparas%20esmaltado&map=ft",
+            "noFollow": true,
+            "tagTitle": "LÁMPARAS ESMALTADO PERMANENTE",
+            "text": "LÁMPARAS ESMALTADO PERMANENTE"
+          }
+        }
+      },
+      "menu-item#accesorioselec": {
+        "props": {
+          "id": "menu-item-accesorioselec",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/electricos?map=category-1,category-2&query=/electricos/accesorios&searchState",
+            "noFollow": true,
+            "tagTitle": "ACCESORIOS",
+            "text": "ACCESORIOS"
+          }
+        }
+      },
+      "menu-item#ver-todo-electricoselec": {
+        "props": {
+          "id": "menu-item-ver-todo-electricoselec",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/electricos",
+            "noFollow": true,
+            "tagTitle": "VER TODO ELÉCTRICOS",
+            "text": "VER TODO ELÉCTRICOS"
+          }
+        }
+      },
+      "vtex.menu@2.x:menu#electricos2": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#marcaselec",
+          "menu-item#babylyssprom",
+          "menu-item#gelish",
+          "menu-item#wahl"
+        ]
+      },
+      "menu-item#marcaselec": {
+        "props": {
+          "blockClass": "marcaselec",
+          "id": "menu-item-marcaselec",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "MARCAS",
+            "text": "MARCAS"
+          }
+        }
+      },
+      "menu-item#babylyssprom": {
+        "props": {
+          "id": "menu-item-babylyssprom",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/electricos?map=category-1,brand&query=/electricos/babylisspro&searchState",
+            "noFollow": true,
+            "tagTitle": "BabylissPRO",
+            "text": "BabylissPRO"
+          }
+        }
+      },
+      "menu-item#gelish": {
+        "props": {
+          "id": "menu-item-gelish",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/gelish?_q=gelish&map=ft",
+            "noFollow": true,
+            "tagTitle": "Gelish",
+            "text": "Gelish"
+          }
+        }
+      },
+      "menu-item#wahl": {
+        "props": {
+          "id": "menu-item-wahl",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "Wahl",
+            "text": "Wahl"
+          }
+        }
+      }
+}

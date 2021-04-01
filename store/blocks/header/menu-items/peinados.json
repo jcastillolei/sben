@@ -1,0 +1,546 @@
+{
+    "menu-item#peinados": {
+        "props": {
+          "id": "menu-item-custom-sale",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/styling",
+            "noFollow": true,
+            "tagTitle": "STYLING",
+            "text": "STYLING"
+          }
+        },
+        "blocks": [
+          "vtex.menu@2.x:submenu#peinados"
+        ]
+      },
+      "vtex.menu@2.x:submenu#peinados": {
+        "props": {
+          "width": "100%"
+        },
+        "children": [
+          "flex-layout.row#menu-peinados"
+        ]
+      },
+      "flex-layout.row#menu-peinados": {
+        "children": [
+          "flex-layout.col#menu-peinados-1",
+          "flex-layout.col#menu-peinados-2",
+          "flex-layout.col#menu-peinados-3",
+          "flex-layout.col#menu-peinados-4"
+        ]
+      },
+      "flex-layout.col#menu-peinados-1": {
+        "props": {
+          "blockClass": "menu-col-1"
+        },
+        "children": [
+          "vtex.menu@2.x:menu#peinados"
+        ]
+      },
+      "flex-layout.col#menu-peinados-2": {
+        "children": [
+          "vtex.menu@2.x:menu#peinados2"
+        ]
+      },
+      "flex-layout.col#menu-peinados-3": {
+        "children": [
+          "vtex.menu@2.x:menu#peinados3"
+        ]
+      },
+      "flex-layout.col#menu-peinados-4": {
+        "children": [
+          "info-card#home"
+        ]
+      },
+      "vtex.menu@2.x:menu#peinados": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#lacaspray",
+          "menu-item#protectortermico",
+          "menu-item#cremadepeinado",
+          "menu-item#mousse",
+          "menu-item#cera",
+          "menu-item#gel",
+          "menu-item#aceiteyserum",
+          "menu-item#accesoriospeinado",
+          "menu-item#vertodopeinados"
+        ]
+      },
+      "menu-item#lacaspray": {
+        "props": {
+          "id": "menu-item-laca-spray",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/styling?map=category-1,category-2&query=/styling/laca-spray&searchState",
+            "noFollow": true,
+            "tagTitle": "LACA, SPRAY",
+            "text": "LACA, SPRAY"
+          }
+        }
+      },
+      "menu-item#protectortermico": {
+        "props": {
+          "id": "menu-item-protector-termico",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/styling?map=category-1,category-2&query=/styling/protector-termico&searchState",
+            "noFollow": true,
+            "tagTitle": "PROTECTOR TÉRMICO",
+            "text": "PROTECTOR TÉRMICO"
+          }
+        }
+      },
+      "menu-item#cremadepeinado": {
+        "props": {
+          "id": "menu-item-crema-peinado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/styling?map=category-1,category-2&query=/styling/crema-de-peinado&searchState",
+            "noFollow": true,
+            "tagTitle": "CREMA DE PEINADO",
+            "text": "CREMA DE PEINADO"
+          }
+        }
+      },
+      "menu-item#mousse": {
+        "props": {
+          "id": "menu-item-mousse",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/estilismo%20mousse?_q=estilismo%20mousse&map=ft",
+            "noFollow": true,
+            "tagTitle": "MOUSSE",
+            "text": "MOUSSE"
+          }
+        }
+      },
+      "menu-item#cera": {
+        "props": {
+          "id": "menu-item-cera",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/styling?map=category-1,category-2&query=/styling/cera&searchState",
+            "noFollow": true,
+            "tagTitle": "CERA",
+            "text": "CERA"
+          }
+        }
+      },
+      "menu-item#gel": {
+        "props": {
+          "id": "menu-item-gel",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/estilismo%20gel?_q=estilismo%20gel&map=ft",
+            "noFollow": true,
+            "tagTitle": "GEL",
+            "text": "GEL"
+          }
+        }
+      },
+      "menu-item#aceiteyserum": {
+        "props": {
+          "id": "menu-item-aceite-serum",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/styling?map=category-1,category-2&query=/styling/aceites-y-serum&searchState",
+            "noFollow": true,
+            "tagTitle": "ACEITE Y SERUM",
+            "text": "ACEITE Y SERUM"
+          }
+        }
+      },
+      "menu-item#accesoriospeinado": {
+        "props": {
+          "id": "menu-item-accesoriospeinado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/styling?map=category-1,category-2&query=/styling/accesorios&searchState",
+            "noFollow": true,
+            "tagTitle": "ACCESORIOS",
+            "text": "ACCESORIOS"
+          }
+        }
+      },
+      "menu-item#vertodopeinados": {
+        "props": {
+          "id": "menu-item-ver-todo-peinados",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/styling",
+            "noFollow": true,
+            "tagTitle": "VER TODO PEINADOS",
+            "text": "VER TODO PEINADOS"
+          }
+        }
+      },
+      "vtex.menu@2.x:menu#peinados2": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#marcaspeina",
+          "menu-item#secopei",
+          "menu-item#aghair",
+          "menu-item#babylisspro",
+          "menu-item#barburys",
+          "menu-item#cricket",
+          "menu-item#eurostil",
+          "menu-item#facesecrets",
+          "menu-item#henbor",
+          "menu-item#ion",
+          "menu-item#lakme",
+          "menu-item#paulmitchel",
+          "menu-item#phillips",
+          "menu-item#proclaim",
+          "menu-item#tigi",
+          "menu-item#tweezerman",
+          "menu-item#wetbrush"
+        ]
+      },
+      "menu-item#marcaspeina": {
+        "props": {
+          "blockClass": "marcas",
+          "id": "menu-item-marcas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us",
+            "noFollow": true,
+            "tagTitle": "MARCAS",
+            "text": "MARCAS"
+          }
+        }
+      },
+      "menu-item#secopei": {
+        "props": {
+          "id": "menu-item-secopei",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/faq",
+            "noFollow": true,
+            "tagTitle": "Seco",
+            "text": "Seco"
+          }
+        }
+      },
+      "menu-item#aghair": {
+        "props": {
+          "id": "menu-item-aghair",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/styling?map=category-1,brand&query=/styling/ag-hair&searchState",
+            "noFollow": true,
+            "tagTitle": "AG Hair",
+            "text": "AG Hair"
+          }
+        }
+      },
+      "menu-item#babylisspro": {
+        "props": {
+          "id": "menu-item-babylisspro",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/styling?map=category-1,brand&query=/styling/babylisspro&searchState",
+            "noFollow": true,
+            "tagTitle": "BabylissPRO",
+            "text": "BabylissPRO"
+          }
+        }
+      },
+      "menu-item#barburys": {
+        "props": {
+          "id": "menu-item-barburys",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/styling?map=category-1,brand&query=/styling/barburys&searchState",
+            "noFollow": true,
+            "tagTitle": "Barburys",
+            "text": "Barburys"
+          }
+        }
+      },
+      "menu-item#cricket": {
+        "props": {
+          "id": "menu-item-cricket",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/estilismo%20cricket?_q=estilismo%20cricket&map=ft",
+            "noFollow": true,
+            "tagTitle": "Cricket",
+            "text": "Cricket"
+          }
+        }
+      },
+      "menu-item#eurostil": {
+        "props": {
+          "id": "menu-item-eurostil",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/styling?map=category-1,brand&query=/styling/eurostil&searchState",
+            "noFollow": true,
+            "tagTitle": "Eurostil",
+            "text": "Eurostil"
+          }
+        }
+      },
+      "menu-item#facesecrets": {
+        "props": {
+          "id": "menu-item-facesecrets",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/face%20secrets?_q=face%20secrets&map=ft",
+            "noFollow": true,
+            "tagTitle": "Face Secrets",
+            "text": "Face Secrets"
+          }
+        }
+      },
+      "menu-item#henbor": {
+        "props": {
+          "id": "menu-item-henbor",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/styling?map=category-1,brand&query=/styling/henbor&searchState",
+            "noFollow": true,
+            "tagTitle": "Henbor",
+            "text": "Henbor"
+          }
+        }
+      },
+      "menu-item#ion": {
+        "props": {
+          "id": "menu-item-ion",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/styling?map=category-1,brand&query=/styling/ion&searchState",
+            "noFollow": true,
+            "tagTitle": "ION",
+            "text": "ION"
+          }
+        }
+      },
+      "menu-item#lakme": {
+        "props": {
+          "id": "menu-item-lakme",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/styling?map=category-1,brand&query=/styling/lakme&searchState",
+            "noFollow": true,
+            "tagTitle": "Lakmé",
+            "text": "Lakmé"
+          }
+        }
+      },
+      "menu-item#paulmitchel": {
+        "props": {
+          "id": "menu-item-paulmitchel",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/styling?map=category-1,brand&query=/styling/paul-mitchell&searchState",
+            "noFollow": true,
+            "tagTitle": "Paul Mitchell",
+            "text": "Paul Mitchell"
+          }
+        }
+      },
+      "menu-item#phillips": {
+        "props": {
+          "id": "menu-item-phillips",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/styling?map=category-1,brand&query=/styling/phillips&searchState",
+            "noFollow": true,
+            "tagTitle": "Phillips",
+            "text": "Phillips"
+          }
+        }
+      },
+      "menu-item#proclaim": {
+        "props": {
+          "id": "menu-item-proclaim",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/proclaim?_q=proclaim&map=ft",
+            "noFollow": true,
+            "tagTitle": "Proclaim",
+            "text": "Proclaim"
+          }
+        }
+      },
+      "menu-item#tigi": {
+        "props": {
+          "id": "menu-item-tigi",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tigi?_q=tigi&map=ft",
+            "noFollow": true,
+            "tagTitle": "Tigi",
+            "text": "Tigi"
+          }
+        }
+      },
+      "menu-item#tweezerman": {
+        "props": {
+          "id": "menu-item-tweezerman",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/styling?map=category-1,brand&query=/styling/tweezerman&searchState",
+            "noFollow": true,
+            "tagTitle": "Tweezerman",
+            "text": "Tweezerman"
+          }
+        }
+      },
+      "menu-item#wetbrush": {
+        "props": {
+          "id": "menu-item-wetbrush",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/wet%20brush?_q=Wet%20Brush&map=ft",
+            "noFollow": true,
+            "tagTitle": "Wet Brush",
+            "text": "Wet Brush"
+          }
+        }
+      },
+      "vtex.menu@2.x:menu#peinados3": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#caracteristicas",
+          "menu-item#suave",
+          "menu-item#brillopei"
+        ]
+      },
+      "menu-item#caracteristicas": {
+        "props": {
+          "blockClass": "caracteristicas",
+          "id": "menu-item-caracteristicas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "CARACTERÍSTICAS",
+            "text": "CARACTERÍSTICAS"
+          }
+        }
+      },
+      "menu-item#suave": {
+        "props": {
+          "id": "menu-item-suave",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "Suave",
+            "text": "Suave"
+          }
+        }
+      },
+      "menu-item#brillopei": {
+        "props": {
+          "id": "menu-item-brillopei",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "Brillo",
+            "text": "Brillo"
+          }
+        }
+      }
+}

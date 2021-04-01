@@ -1,0 +1,26 @@
+.productHighlightWrapper--collection {
+  position: absolute;
+  width: 200px;
+}
+
+@media(min-width: 991px){
+  .productHighlightText {
+    background: #F75454;
+    padding: 5px 8px;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+  }
+}
+
+@media(max-width: 990px){
+  .productHighlightText {
+    background: #F75454;
+    padding: 5px 8px;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 8px;
+  }
+}

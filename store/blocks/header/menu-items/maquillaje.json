@@ -1,0 +1,578 @@
+{
+    "menu-item#maquillaje": {
+        "props": {
+          "id": "menu-item-custom-sale",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "MAQUILLAJE",
+            "text": "MAQUILLAJE"
+          }
+        },
+        "blocks": [
+          "vtex.menu@2.x:submenu#maquillaje"
+        ]
+      },
+      "vtex.menu@2.x:submenu#maquillaje": {
+        "props": {
+          "width": "100%"
+        },
+        "children": [
+          "flex-layout.row#menu-maquillaje"
+        ]
+      },
+      "flex-layout.row#menu-maquillaje": {
+        "children": [
+          "flex-layout.col#menu-maquillaje-1",
+          "flex-layout.col#menu-maquillaje-2",
+          "flex-layout.col#menu-maquillaje-3",
+          "flex-layout.col#menu-maquillaje-4"
+        ]
+      },
+      "flex-layout.col#menu-maquillaje-1": {
+        "props": {
+          "blockClass": "menu-col-1"
+        },
+        "children": [
+          "vtex.menu@2.x:menu#maquillaje"
+        ]
+      },
+      "flex-layout.col#menu-maquillaje-2": {
+        "children": [
+          "vtex.menu@2.x:menu#maquillaje2"
+        ]
+      },
+      "flex-layout.col#menu-maquillaje-3": {
+        "children": [
+          "vtex.menu@2.x:menu#maquillaje3"
+        ]
+      },
+      "flex-layout.col#menu-maquillaje-4": {
+        "children": [
+          "info-card#home"
+        ]
+      },
+      "vtex.menu@2.x:menu#maquillaje": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#rostro1",
+          "menu-item#mejillas",
+          "menu-item#ojos",
+          "menu-item#pestanas",
+          "menu-item#labios",
+          "menu-item#paletas",
+          "menu-item#brochas",
+          "menu-item#accesorios-maquillaje",
+          "menu-item#ver-todo-maquillaje"
+        ]
+      },
+      "menu-item#rostro1": {
+        "props": {
+          "id": "menu-item-rostro1",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/maquillaje?map=category-1,category-2&query=/maquillaje/rostro&searchState",
+            "noFollow": true,
+            "tagTitle": "ROSTRO",
+            "text": "ROSTRO"
+          }
+        }
+      },
+      "menu-item#mejillas": {
+        "props": {
+          "id": "menu-item-mejillas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/maquillaje?map=category-1,category-2&query=/maquillaje/mejillas&searchState",
+            "noFollow": true,
+            "tagTitle": "MEJILLAS",
+            "text": "MEJILLAS"
+          }
+        }
+      },
+      "menu-item#ojos": {
+        "props": {
+          "id": "menu-item-ojos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/maquillaje?map=category-2&query=/ojos&searchState",
+            "noFollow": true,
+            "tagTitle": "OJOS",
+            "text": "OJOS"
+          }
+        }
+      },
+      "menu-item#pestanas": {
+        "props": {
+          "id": "menu-item-pestanas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/maquillaje?map=category-1,category-3&query=/maquillaje/pestanas&searchState",
+            "noFollow": true,
+            "tagTitle": "PESTAÑAS",
+            "text": "PESTAÑAS"
+          }
+        }
+      },
+      "menu-item#labios": {
+        "props": {
+          "id": "menu-item-labios",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/maquillaje?map=category-1,category-2&query=/maquillaje/labios&searchState",
+            "noFollow": true,
+            "tagTitle": "LABIOS",
+            "text": "LABIOS"
+          }
+        }
+      },
+      "menu-item#paletas": {
+        "props": {
+          "id": "menu-item-paletas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/maquillaje?map=category-1,category-2&query=/maquillaje/paletas-y-sets&searchState",
+            "noFollow": true,
+            "tagTitle": "PALETAS Y SETS",
+            "text": "PALETAS Y SETS"
+          }
+        }
+      },
+      "menu-item#brochas": {
+        "props": {
+          "id": "menu-item-brochas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/maquillaje?map=category-1,category-2&query=/maquillaje/brochas-y-aplicadores&searchState",
+            "noFollow": true,
+            "tagTitle": "BROCHAS Y APLICADORES",
+            "text": "BROCHAS Y APLICADORES"
+          }
+        }
+      },
+      "menu-item#accesorios-maquillaje": {
+        "props": {
+          "id": "menu-item-accesorios-maquillaje",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/maquillaje?map=category-1,category-2&query=/maquillaje/accesorios&searchState",
+            "noFollow": true,
+            "tagTitle": "ACCESORIOS",
+            "text": "ACCESORIOS"
+          }
+        }
+      },
+      "menu-item#ver-todo-maquillaje": {
+        "props": {
+          "id": "menu-item-ver-todo-maquillaje",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/maquillaje",
+            "noFollow": true,
+            "tagTitle": "VER TODO MAQUILLAJE",
+            "text": "VER TODO MAQUILLAJE"
+          }
+        }
+      },
+      "vtex.menu@2.x:menu#maquillaje2": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#rostro3",
+          "menu-item#primer",
+          "menu-item#base",
+          "menu-item#papelmatificante",
+          "menu-item#corrector",
+          "menu-item#polvos",
+          "menu-item#iluminador",
+          "menu-item#mejillas2",
+          "menu-item#rubor",
+          "menu-item#polvosbronceadores"
+        ]
+      },
+      "menu-item#rostro3": {
+        "props": {
+          "blockClass": "rostro",
+          "id": "menu-item-rostro3",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "ROSTRO",
+            "text": "ROSTRO"
+          }
+        }
+      },
+      "menu-item#primer": {
+        "props": {
+          "id": "menu-item-primer",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/maquillaje?map=category-1,category-2,category-3&query=/maquillaje/rostro/primer&searchState",
+            "noFollow": true,
+            "tagTitle": "Primer",
+            "text": "Primer"
+          }
+        }
+      },
+      "menu-item#base": {
+        "props": {
+          "id": "menu-item-base",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/maquillaje?map=category-1,category-2,category-3&query=/maquillaje/rostro/base&searchState",
+            "noFollow": true,
+            "tagTitle": "Base",
+            "text": "Base"
+          }
+        }
+      },
+      "menu-item#papelmatificante": {
+        "props": {
+          "id": "menu-item-papelmatificante",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/maquillaje?map=category-1,category-2,category-3&query=/maquillaje/rostro/papel-matificante&searchState",
+            "noFollow": true,
+            "tagTitle": "Papel Matificante",
+            "text": "Papel Matificante"
+          }
+        }
+      },
+      "menu-item#corrector": {
+        "props": {
+          "id": "menu-item-corrector",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/maquillaje?map=category-1,category-2,category-3&query=/maquillaje/rostro/corrector&searchState",
+            "noFollow": true,
+            "tagTitle": "Corrector",
+            "text": "Corrector"
+          }
+        }
+      },
+      "menu-item#polvos": {
+        "props": {
+          "id": "menu-item-polvos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/maquillaje?map=category-1,category-2,category-3&query=/maquillaje/rostro/polvos&searchState",
+            "noFollow": true,
+            "tagTitle": "Polvos",
+            "text": "Polvos"
+          }
+        }
+      },
+      "menu-item#iluminador": {
+        "props": {
+          "id": "menu-item-iluminador",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/maquillaje?map=category-1,category-2,category-3&query=/maquillaje/rostro/iluminador&searchState",
+            "noFollow": true,
+            "tagTitle": "Iluminador",
+            "text": "Iluminador"
+          }
+        }
+      },
+      "menu-item#mejillas2": {
+        "props": {
+          "id": "menu-item-mejillas2",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/maquillaje?map=category-1,category-2,category-2&query=/maquillaje/mejillas/rostro&searchState",
+            "noFollow": true,
+            "tagTitle": "MEJILLAS",
+            "text": "MEJILLAS"
+          }
+        }
+      },
+      "menu-item#rubor": {
+        "props": {
+          "id": "menu-item-rubor",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/maquillaje?map=category-1,category-2,category-2,category-3&query=/maquillaje/mejillas/rostro/iluminador&searchState",
+            "noFollow": true,
+            "tagTitle": "Rubor",
+            "text": "Rubor"
+          }
+        }
+      },
+      "menu-item#polvosbronceadores": {
+        "props": {
+          "id": "menu-item-polvosbronceadores",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/maquillaje?map=category-1,category-2,category-3,category-3&query=/maquillaje/rostro/iluminador/polvos-bronceadores&searchState",
+            "noFollow": true,
+            "tagTitle": "Polvos Bronceadores",
+            "text": "Polvos Bronceadores"
+          }
+        }
+      },
+      "vtex.menu@2.x:menu#maquillaje3": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#ojos2",
+          "menu-item#primerojos",
+          "menu-item#correctorojos",
+          "menu-item#sombrasojos",
+          "menu-item#delineadoresojos",
+          "menu-item#mascara",
+          "menu-item#delineadorescejas",
+          "menu-item#pestanas2",
+          "menu-item#labios2",
+          "menu-item#delineadorlabios",
+          "menu-item#labiales2",
+          "menu-item#brillolabial"
+        ]
+      },
+      "menu-item#ojos2": {
+        "props": {
+          "blockClass": "ojos",
+          "id": "menu-item-ojos2",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "OJOS",
+            "text": "OJOS"
+          }
+        }
+      },
+      "menu-item#primerojos": {
+        "props": {
+          "id": "menu-item-primerojos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/maquillaje?map=category-1,category-2,category-3&query=/maquillaje/ojos/primer&searchState",
+            "noFollow": true,
+            "tagTitle": "Primer",
+            "text": "Primer"
+          }
+        }
+      },
+      "menu-item#correctorojos": {
+        "props": {
+          "id": "menu-item-correctorojos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/maquillaje?map=category-1,category-2,category-3&query=/maquillaje/ojos/corrector&searchState",
+            "noFollow": true,
+            "tagTitle": "Corrector",
+            "text": "Corrector"
+          }
+        }
+      },
+      "menu-item#sombrasojos": {
+        "props": {
+          "id": "menu-item-sombrasojos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/maquillaje?map=category-1,category-2,category-3&query=/maquillaje/ojos/sombras&searchState",
+            "noFollow": true,
+            "tagTitle": "Sombras",
+            "text": "Sombras"
+          }
+        }
+      },
+      "menu-item#delineadoresojos": {
+        "props": {
+          "id": "menu-item-delineadoresojos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/maquillaje?map=category-1,category-2,category-3&query=/maquillaje/ojos/delineadores-de-ojos&searchState",
+            "noFollow": true,
+            "tagTitle": "Delineadores de Ojos",
+            "text": "Delineadores de Ojos"
+          }
+        }
+      },
+      "menu-item#mascara": {
+        "props": {
+          "id": "menu-item-mascara",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/maquillaje?map=category-1,category-2,category-3&query=/maquillaje/ojos/mascara&searchState",
+            "noFollow": true,
+            "tagTitle": "Máscara",
+            "text": "Máscara"
+          }
+        }
+      },
+      "menu-item#delineadorescejas": {
+        "props": {
+          "id": "menu-item-delineadorescejas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/maquillaje?map=category-1,category-2,category-3&query=/maquillaje/ojos/delineador-de-cejas&searchState",
+            "noFollow": true,
+            "tagTitle": "Delineador de Cejas",
+            "text": "Delineador de Cejas"
+          }
+        }
+      },
+      "menu-item#pestanas2": {
+        "props": {
+          "id": "menu-item-pestanas2",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/maquillaje?map=category-1,category-2,category-3&query=/maquillaje/ojos/pestanas&searchState",
+            "noFollow": true,
+            "tagTitle": "Pestanas",
+            "text": "Pestanas"
+          }
+        }
+      },
+      "menu-item#labios2": {
+        "props": {
+          "id": "menu-item-labios2",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/maquillaje?map=category-1,category-2&query=/maquillaje/labios&searchState",
+            "noFollow": true,
+            "tagTitle": "LABIOS",
+            "text": "LABIOS"
+          }
+        }
+      },
+      "menu-item#delineadorlabios": {
+        "props": {
+          "id": "menu-item-delineadorlabios",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/maquillaje?map=category-1,category-2,category-3&query=/maquillaje/labios/delineador-de-labios&searchState",
+            "noFollow": true,
+            "tagTitle": "Delineador de Labios",
+            "text": "Delineador de Labios"
+          }
+        }
+      },
+      "menu-item#labiales2": {
+        "props": {
+          "id": "menu-item-labiales2",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/maquillaje?map=category-1,category-2,category-3&query=/maquillaje/labios/labiales&searchState",
+            "noFollow": true,
+            "tagTitle": "Labiales",
+            "text": "Labiales"
+          }
+        }
+      },
+      "menu-item#brillolabial": {
+        "props": {
+          "id": "menu-item-brillolabial",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/maquillaje?map=category-1,category-2,category-3&query=/maquillaje/labios/brillo-labial&searchState",
+            "noFollow": true,
+            "tagTitle": "Brillo Labial",
+            "text": "Brillo Labial"
+          }
+        }
+      }
+}
